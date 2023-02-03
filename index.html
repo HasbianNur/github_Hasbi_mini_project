@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,7 +14,7 @@
     />
 
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -55,23 +53,23 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="/index.html">Hasbian Nur</a>
+        <a class="navbar-brand" href="/index.html"><i>Hasbian Nur</i></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home"><i class="bi bi-house-fill"></i> Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about"><i class="bi bi-info-circle-fill"></i> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#projects"><i class="bi bi-gear-fill"></i> Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact"><i class="bi bi-telephone-fill"></i> Contact</a>
             </li>
           </ul>
         </div>
@@ -83,7 +81,7 @@
     <section class="jumbotron text-center">
       <img src="img/foto-hasbi.png" alt="Hasbian Nur" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Hasbian Nur</h1>
-      <p class="lead">Lecturer | Content Creator</p>
+      <p class="lead">Students | Programmer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -99,15 +97,17 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col" data-aos="fade-down">
+            <i class="bi bi-info-circle-fill"></i>
+            <br>
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4" data-aos="fade-right">
-            <p>Hello, My name is Hasbian Nur, you can call me hasbi. I am a backend developer. I am 17 years old and I live in Balikpapan, East Kalimantan.</p>
+            <p>Hello, My name is Hasbian Nur, you can call me hasbi. I am a frontend developer. I am 18 years old and I live in Balikpapan, East Kalimantan.</p>
           </div>
           <div class="col-md-4" data-aos="fade-left">
-            <p>Halo, Nama saya Hasbian Nur, Anda bisa memanggil saya hasbi. Saya seorang pengembang backend. Saya berumur 17 tahun dan saya tinggal di Balikpapan, Kalimantan Timur.</p>
+            <p>Halo, Nama saya Hasbian Nur, Anda bisa memanggil saya hasbi. Saya seorang pengembang frontend. Saya berumur 18 tahun dan saya tinggal di Balikpapan, Kalimantan Timur.</p>
           </div>
         </div>
       </div>
@@ -126,6 +126,8 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
+            <i class="bi bi-gear-fill"></i>
+            <br>
             <h2>My Projects</h2>
           </div>
         </div>
@@ -144,7 +146,7 @@
               <img src="https://hasbiannur.github.io/img/projek%202.png" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <p class="card-text">Aplikasi Pencari Film Menggunakan API OMDb</p>
-                <a class="btn btn-primary" href="/movie/index.html" role="button">Kunjungi</a>
+                <a class="btn btn-primary" href="https://hasbiannur.github.io/movie/index.html" role="button">Kunjungi</a>
               </div>
             </div>
           </div>
@@ -223,6 +225,8 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
+            <i class="bi bi-telephone-fill"></i>
+            <br>
             <h2>Contact Me</h2>
           </div>
         </div>
@@ -235,11 +239,11 @@
             <form name="wpu-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" autocomplete="off" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" autocomplete="off" />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
@@ -267,7 +271,7 @@
 
     <!-- Footer -->
     <footer class="bg-primary text-white text-center pb-5">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/sandhikagalih/" class="text-white fw-bold">Hasbian Nur</a></p>
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="#" class="text-white fw-bold">Hasbian Nur</a></p>
     </footer>
     <!-- Akhir Footer -->
 
@@ -288,7 +292,7 @@
       gsap.from('.display-4', { delay: 1, duration: 1, opacity: 0, x: '-10%' });
 
       gsap.registerPlugin(TextPlugin);
-      gsap.to('.lead', { delay: 1.5, duration: 2, text: 'Lecturer | Content Creator' });
+      gsap.to('.lead', { delay: 1.5, duration: 2, text: '<i class="bi bi-person-fill"></i> Students | <i class="bi bi-cpu-fill"></i>  Programmer | <i class="bi bi-joystick"></i> Minecraft Players' });
 
       const galleryImages = document.querySelectorAll('.gallery-img');
       const delayTimes = [0, 50, 100, 150, 200, 250, 300, 350, 400, 450];
