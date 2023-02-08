@@ -21,7 +21,7 @@ html,body{
   max-width: 390px;
   background: #fff;
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 5px; 
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
 }
 .wrapper .title-text{
@@ -68,7 +68,7 @@ html,body{
   left: 0;
   z-index: 0;
   border-radius: 5px;
-  background: -webkit-linear-gradient(left, #1FBCFF, #1FBCFF);
+  background: -webkit-linear-gradient(left, #02aaf3, #1FBCFF);
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 input[type="radio"]{
