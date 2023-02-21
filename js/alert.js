@@ -1,24 +1,16 @@
 document.querySelector(".first").addEventListener('click', function(){
   Swal.fire({
-    title: 'Do you want to save the changes?',
+    title: 'Yakin untuk menghapus ?',
   showDenyButton: true,
   showCancelButton: true,
-  confirmButtonText: 'Save',
-  denyButtonText: `Don't save`,
+  confirmButtonText: 'Iya',
+  denyButtonText: `Tidak`,
 }).then((result) => {
   /* Read more about isConfirmed, isDenied below */
   if (result.isConfirmed) {
-    Swal.fire('Saved!', '', 'success')
+    Swal.fire('Data Terhapus !', '', 'success')
   } else if (result.isDenied) {
-    Swal.fire('Changes are not saved', '', 'info')
+    Swal.fire('Data Tidak Dihapus', '', 'info')
   }
   });
-});
-
-document.querySelector(".second").addEventListener('click', function(){
-  Swal.fire("Our First Alert", "With some body text!");
-});
-
-document.querySelector(".third").addEventListener('click', function(){
-  Swal.fire("Our First Alert", "With some body text and success icon!", "success");
 });
